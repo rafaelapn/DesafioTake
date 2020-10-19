@@ -38,24 +38,24 @@ class TesteDoServidor.java /JUnit
 
 #### package Cliente;
 - class Cliente.java
-- - Classe que é responsável pela iniciação do cliente e conexão com o servidor de chat.
-- Se executar várias vezes, será possível conectar múltiplos clientes ao mesmo servidor.
+  - Classe que é responsável pela iniciação do cliente e conexão com o servidor de chat.
+  - Se executar várias vezes, será possível conectar múltiplos clientes ao mesmo servidor.
 - class TrataMsgCliente.java
-- Classe de Tratamento de Mensagens do cliente.
-- Classe de tratamento de mensagens provenientes dos clientes/usuários do chat.
+  - Classe de Tratamento de Mensagens do cliente.
+  - Classe de tratamento de mensagens provenientes dos clientes/usuários do chat.
 - class TesteDoCliente.java /JUnit
-- Classe de teste unitário da classe @Cliente
+  - Classe de teste unitário da classe @Cliente
 
-####package Servidor;
-  --class Servidor.java
-    ---Inicia o servidor via conexão Socket nativo.
-    Setando uma porta padrão 12345 para o servidor, somente como didática.
-    Limite de tempo do servidor aberto = long de 1536259 == 25:36:259.
-  class RecebeMsgServidor.java
-    Classe de recebimento de mensagens do server
-    Classe de tratamento de mensagens provenientes do servidor.
-  class TesteDoServidor.java /JUnit
-    Classe de validação unitária da Classe @Servidor
+#### package Servidor;
+- class Servidor.java
+  - Inicia o servidor via conexão Socket nativo.
+  - Setando uma porta padrão 12345 para o servidor, somente como didática.
+  - Limite de tempo do servidor aberto = long de 1536259 == 25:36:259.
+- class RecebeMsgServidor.java
+  - Classe de recebimento de mensagens do server
+  - Classe de tratamento de mensagens provenientes do servidor.
+- class TesteDoServidor.java /JUnit
+  - Classe de validação unitária da Classe @Servidor
 
 ## Repositório
 
