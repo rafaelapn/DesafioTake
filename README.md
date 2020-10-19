@@ -36,17 +36,17 @@ class TesteDoServidor.java /JUnit
 
 ### Descrição das Classes
 
-*package Cliente;
-  *class Cliente.java
-    *Classe que é responsável pela iniciação do cliente e conexão com o servidor de chat.
-    *Se executar várias vezes, será possível conectar múltiplos clientes ao mesmo servidor.
-  *class TrataMsgCliente.java
-    *Classe de Tratamento de Mensagens do cliente.
-    *Classe de tratamento de mensagens provenientes dos clientes/usuários do chat.
-  *class TesteDoCliente.java /JUnit
-    *Classe de teste unitário da classe @Cliente
+####package Cliente;
+- class Cliente.java
+- Classe que é responsável pela iniciação do cliente e conexão com o servidor de chat.
+- Se executar várias vezes, será possível conectar múltiplos clientes ao mesmo servidor.
+- class TrataMsgCliente.java
+- Classe de Tratamento de Mensagens do cliente.
+- Classe de tratamento de mensagens provenientes dos clientes/usuários do chat.
+- class TesteDoCliente.java /JUnit
+- Classe de teste unitário da classe @Cliente
 
--package Servidor;
+####package Servidor;
   --class Servidor.java
     ---Inicia o servidor via conexão Socket nativo.
     Setando uma porta padrão 12345 para o servidor, somente como didática.
